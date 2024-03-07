@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/anz/static/css/main.860ec8ae.css",
-    "main.js": "/anz/static/js/main.8cbf48aa.js",
+    "main.js": "/anz/static/js/main.f2d2b61f.js",
     "static/media/cat.webp": "/anz/static/media/cat.c26fe863f4b42d8863f4.webp",
     "static/media/oh-no-emoji.gif": "/anz/static/media/oh-no-emoji.662c9bce112e1e305e0b.gif",
     "index.html": "/anz/index.html",
     "main.860ec8ae.css.map": "/anz/static/css/main.860ec8ae.css.map",
-    "main.8cbf48aa.js.map": "/anz/static/js/main.8cbf48aa.js.map"
+    "main.f2d2b61f.js.map": "/anz/static/js/main.f2d2b61f.js.map"
   },
   "entrypoints": [
     "static/css/main.860ec8ae.css",
-    "static/js/main.8cbf48aa.js"
+    "static/js/main.f2d2b61f.js"
   ]
 }
