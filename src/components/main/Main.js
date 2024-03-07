@@ -4,10 +4,8 @@ import cat from '../../cat.webp'
 
 export const Main = () => {
     const [clickState, setClickState] = React.useState(0)
-    // const [buttonTop, setButtonTop] = React.useState("")
     const [buttonTop, setButtonTop] = React.useState("48.5%")
     const [buttonLeft, setButtonLeft] = React.useState("")
-    // const [buttonLeft, setButtonLeft] = React.useState("27.5%")
     const [buttonRight, setButtonRight] = React.useState("")
     const [buttonText, setButtonText] = React.useState("Нажми для запуска")
     const onClickHandler = () => {
