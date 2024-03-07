@@ -1,38 +1,93 @@
+body {
+  background: #f6c7e2;
+}
+
 .App {
-  text-align: center;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  /*display: flex;*/
+  /*justify-content: center;*/
+/*border: 1px solid red;*/
+  /*width: 100%;*/
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main {
   display: flex;
+  justify-content: start;
   flex-direction: column;
+}
+.button {
+  position: absolute;
+  padding: 1vh 1vh;
+  align-self: center;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  border: none;
+  background-color: #ff7300;
   color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+.button img {
+  margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.button:hover {
+  background-color: #ff5900;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button:active {
+  background-color: #ff5900;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2) inset;
 }
+
+.button:focus {
+  box-shadow: 0 0 0 2px rgba(255, 183, 0, 0.5);
+}
+
+
+.hello {
+  margin-top:  20%;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px; /* Увеличиваем размер шрифта */
+  color: #4A90E2; /* Синий цвет текста */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Тень текста для лучшей читаемости */
+  display: inline-block; /* Блоковое отображение для применения отступов и фона */
+  /*align-items: center;*/
+  align-self: center;
+
+}
+
+.cat {
+  margin-bottom: 5%;
+  width: 80%;
+  align-self: center;
+  /*border: 10px solid red;*/
+}
+.header {
+  font-family: "Lobster", sans-serif;
+  letter-spacing: 10px;
+  align-self: center;
+  color: #ff0000;
+  margin-top: 40px;
+}
+.happy_text{
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 560;
+  font-style: normal;
+  padding: 0 25px;
+  /*letter-spacing: 2px;*/
+  white-space: pre-wrap;
+  text-align: justify;
+
+}
+
